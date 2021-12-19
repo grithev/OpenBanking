@@ -1,13 +1,13 @@
 package com.betterbanking.openBanking.services;
 
 import com.betterbanking.openBanking.model.Transaction;
+import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Data
 public class TransactionService {
-    public TransactionService() {
-    }
 
     public List<Transaction> findAllByAccountNumber(){
 
